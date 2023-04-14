@@ -261,6 +261,28 @@ align-items:center;
 } 
 }
 /* --------------------------CONTACT--------------------------- */
+/* --------------------------AboutUs--------------------------- */
+.display-about{
+display: flexbox;
+align-items: center;
+padding: 70px;
+background-color: #8ae0f3;
+border-radius: 30px;
+}
+.display-about p{
+  font-size: large;
+  text-align: justify;
+  margin-bottom: 25px;
+  color: black;
+  line-height: normal;
+}
+.display-about p:last-child{
+  margin-bottom: 0;
+}
+.display-about h3{
+  font-size: x-large;
+  font-weight: bold;
+}
 /* --------------------------FORM------------------------------- */
 #name , #email  {
   padding: 5px;
